@@ -71,6 +71,6 @@ public class PlayerStats : MonoBehaviour
         animator.SetTrigger("Die");
 
         // Wait for 2 seconds and then destroy the game object
-        Destroy(gameObject, 2f);
+        Destroy(gameObject, 4f);
     }
 }
